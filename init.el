@@ -20,4 +20,14 @@
           (lambda () (setq gc-cons-threshold 800000)))
 
 (provide 'init)
+;; Set default font
+(set-face-attribute 'default nil
+                    :font "Noto Sans Mono-12")
+;; Fallback font for symbols
+(set-fontset-font t 'unicode "Symbola" nil 'prepend)
+
+(prefer-coding-system 'utf-8)
+(set-default-coding-systems 'utf-8)
+(set-terminal-coding-system 'utf-8)
+(set-keyboard-coding-system 'utf-8)
 ;;; init.el ends here 
