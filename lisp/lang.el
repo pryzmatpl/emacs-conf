@@ -56,6 +56,7 @@
 
 ;; Comment code
 (use-package comment-dwim-2
+  :after org
   :bind ("M-/" . comment-dwim-2))
 
 ;; C/C++
