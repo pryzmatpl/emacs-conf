@@ -1,0 +1,16 @@
+# Generated files
+/auto-save-list/
+/elpa/
+/eln-cache/
+/transient/
+/.cache/
+/var/
+
+# Machine-specific files
+/custom.el
+
+# Temp files
+*~
+\#*\#
+.\#*
+*.elc 
